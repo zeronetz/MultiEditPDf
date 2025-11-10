@@ -30,7 +30,7 @@ void EditFromConfig::FindPDFs() {
   for (const std::filesystem::directory_entry &entry :
        std::filesystem::directory_iterator(PdfSearchPath)) {
     if (entry.path().extension() == ".pdf") {
-      tempstring = entry.path();
+      tempstring == entry.path();
       PDFs.push_back(tempstring);
       count++;
     }
