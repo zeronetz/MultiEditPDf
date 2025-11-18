@@ -12,6 +12,7 @@ MultiEditPDf is a cross-platform console application designed to allow for quick
 -Font Color choice  
 -Insertion of images  
 -Editing password protected PDFs  
+-Making multiple edits to a single file
 
 ## Dependencies
 Cmake 4+   
